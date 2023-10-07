@@ -116,8 +116,8 @@ export default function Home() {
   }, [player])
   
   return (
-    <div className='my-6 select-none relative'>
-      <div className='flex flex-col items-center space-y-8 text-white md:mb-6 mb-12'>
+    <div className='md:my-6 my-2 select-none relative'>
+      <div className='flex flex-col items-center space-y-8 text-white mb-6'>
         <h1 className={`${bangers.className} md:text-6xl text-4xl tracking-[0.2em]`}>Tic Tac Toe</h1>
       </div>
       <GameOver {...{handleClose, showAlert, alertColor, chivo_mono}} >{alertText}</GameOver>
